@@ -1,0 +1,38 @@
+{
+  "FREE": {
+    "FIXED_WINDOW": {
+      "maxRequests": 5,
+      "windowSizeInSeconds": 60
+    },
+    "SLIDING_WINDOW": {
+      "maxRequests": 5,
+      "windowSizeInSeconds": 60
+    },
+    "TOKEN_BUCKET": {
+      "bucketCapacity": 5,
+      "refillRatePerSecond": 1
+    },
+    "LEAKY_BUCKET": {
+      "bucketCapacity": 5,
+      "refillRatePerSecond": 1
+    }
+  },
+  "PREMIUM": {
+    "FIXED_WINDOW": {
+      "maxRequests": 20,
+      "windowSizeInSeconds": 60
+    },
+    "SLIDING_WINDOW": {
+      "maxRequests": 20,
+      "windowSizeInSeconds": 60
+    },
+    "TOKEN_BUCKET": {
+      "bucketCapacity": 20,
+      "refillRatePerSecond": 5
+    },
+    "LEAKY_BUCKET": {
+      "bucketCapacity": 20,
+      "refillRatePerSecond": 5
+    }
+  }
+}
