@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Binaries & OS
+rate_limiter
+rate_limiter.exe
+*.o
+*.obj
+.DS_Store
+Thumbs.db
+START_HERE.md
+
